@@ -13,9 +13,11 @@ Technologies Used: HTML, CSS, JavaScript
 A clone of the Nike official website, showcasing my front-end web development skills. It includes features like product listings, a user-friendly interface, and responsive design to mimic the original Nike website
 This project demonstrates my ability to replicate complex user interfaces and design elements, emphasizing attention to detail and responsiveness. Feel free to explore this project to see how closely it resembles the official Nike website.
 Technologies Used: HTML, CSS
-4. Interactive Calculator
+
+5. Interactive Calculator
 An interactive calculator application that allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. It provides a user-friendly interface for quick calculations.
 Technologies Used: HTML, CSS, JavaScript
+
 5.Tic Tac Toe
 A classic Tic-Tac-Toe game implemented as a web application. It allows two players to take turns marking X and O on the grid, with a built-in logic to determine the winner or a draw.
 It also provides a delightful user interface for an engaging gaming experience.
