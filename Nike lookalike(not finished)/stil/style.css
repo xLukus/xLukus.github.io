@@ -1,0 +1,211 @@
+.nadheader {
+    background-color: grey;
+    align-items: center;
+    display: flex;
+    height: 50px;
+}
+
+
+.ikoni {
+    left: 0;
+    width: 50%;
+    margin-left: 50px;
+}
+
+.nadheader a {
+    text-decoration: none;
+    justify-content: end;
+    color: white;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 15px;
+}
+
+.links {
+    width: 50%;
+    right: 0;
+    text-align: right;
+    margin-right: 50px;
+}
+
+#logo {
+    width: 150px;
+    height: 150px;
+    margin-left: 25px;
+}
+
+.slika {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 120px;
+}
+
+#searchBar {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+nav {
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+
+.golembox {
+    width: 100%;
+    height: 130px;
+    display: flex;
+
+}
+
+.container {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 20%;
+    padding-right: 50px
+}
+
+.link2 {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.nadJordan {
+    margin-top: 50px;
+    margin-left: 100px;
+    position: fixed;
+    display: block;
+}
+
+.nadJordan a {
+    border: none;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+.nadJordan span {
+    font-size: 40px;
+}
+
+.links2 a {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    padding: 10px;
+}
+
+.container2 {
+    width: 100%;
+    display: flex;
+
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.con3 {
+    width: 75%;
+    display: inline-block;
+    align-items: center;
+    margin-left: 300px;
+}
+
+
+
+.blcok {
+    display: inline-block;
+    width: 33%;
+    height: 500px;
+}
+
+.blcok img {
+    height: auto;
+    width: 100%;
+}
+
+.con4 {
+    display: inline-block;
+    width: 32%;
+    height: 100%;
+    /* top: 0; */
+    position: fixed;
+    left: 0;
+}
+
+.blcok4 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    margin-top: 20px;
+    height: 500px;
+}
+
+.block4 a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin: 40px 0 40px 100px;
+}
+
+.block4 a:hover {
+    color: blue;
+    transform: translateY(10px);
+}
+
+.block4 #Male,
+#Female {
+    margin-left: 100px;
+
+}
+
+.block4 label {
+    font-size: 25px;
+
+}
+
+.block5 {
+    margin-top: 35px;
+}
+
+.block5 span {
+    font-size: 25px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+.text p {
+    font-size: 30px;
+}
+
+.mesto {
+    height: 100px;
+    color: white;
+}
+
+.text p {
+    color: grey;
+}
+
+.text p span {
+    color: green;
+}
+
+#pickup {
+    padding: 2px;
+    color: blue;
+    background-color: none;
+}
