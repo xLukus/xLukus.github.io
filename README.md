@@ -6,7 +6,7 @@ Please explore the following projects to get a glimpse of my capabilities as a d
 1. Personal Webiste
 My personal website serves as a central hub for my online presence. It showcases my skills, projects, and experiences as a developer.
 Technologies Used: HTML, CSS, JavaScript
-2.Score Keeper
+2. Score Keeper
 A website that counts the score(practised javascript)
 Technologies Used: HTML, CSS, JavaScript
 3. Nike Website Clone
