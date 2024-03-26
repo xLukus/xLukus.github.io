@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #131212;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #ffffff;
+    border-radius: 2px;
+    border: 3px none #ffffff;
+}
+
+body {
+    background-color: #141414;
+    overflow: visible !important;
+    overflow-x: hidden !important;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    mix-blend-mode: difference;
+    top: 0;
+    position: sticky;
+}
+
+.wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 89%;
+    margin-top: 50px;
+}
+
+/* 
+
+.tab {
+    color: white;
+    width: 100%;
+    height: 50px;
+    font-size: 36px;
+    z-index: 1000;
+} */
+
+.tab:nth-child(2) {
+    text-align: end;
+    margin-right: -20px;
+}
+
+.cursor {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    /* background-color: white; */
+    border: 1px solid white;
+    transition: 0.0s !important;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    /* mix-blend-mode: difference; */
+}
+
+.bs1 {
+    width: 505px;
+    height: 589px;
+}
+
+.bloody-div {
+    position: relative;
+}
+
+.bloody-div p {
+    font-family: "Nothing You Could Do", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 128px;
+    padding-top: 50px;
+
+}
+
+
+
+
+
+.bloody-div img {
+    position: absolute;
+    transform: translate(-50%, -60%);
+    z-index: -1;
+}
+
+.bloodycontainer {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.bs-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    height: 100px;
+    mix-blend-mode: difference;
+}
+
+.bs-full {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bs-half {
+    width: 40%;
+    height: 100vh;
+    font-size: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 100px;
+
+
+}
+
+.bs-half span {
+    font-family: "Nothing You Could Do", cursive !important;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    font-kerning: none;
+}
+
+.mix {
+    z-index: -100;
+}
+
+.bs-half p {
+    height: 500px;
+}
+
+.bs-full img {
+    width: 100%;
+}
+
+.bs-full3 {
+    width: 100%;
+    height: 300vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -100;
+}
+
+.bs-80 {
+    height: 90%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bs-80 img {
+    height: 100%;
+    width: 100%;
+    z-index: -100;
+}
+
+.bs-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bs-footer img {
+    width: 505px;
+    height: 589px;
+}
+
+.bs-content1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    margin-top: -100px;
+    mix-blend-mode: difference;
+}
+
+#progressBar {
+    top: 0;
+    right: 0;
+    width: 4px;
+    /* Adjust width as needed */
+    height: 83%;
+    margin-top: -438px;
+    background-color: white;
+    box-shadow: 0px 2px 15px 0px rgba(255, 255, 255, 0.75);
+    -webkit-box-shadow: 0px 2px 15px 0px rgba(255, 255, 255, 0.75);
+    -moz-box-shadow: 0px 2px 15px 0px rgba(255, 255, 255, 0.75);
+    /* Adjust color as needed */
+}
+
+.bs-out-of-bounds {
+    width: 100%;
+    position: absolute;
+    height: 400px;
+    font-family: "Nosifer";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 128px;
+    color: white;
+    margin-top: -60vh;
+}
+
+
+
+.marquee {
+    font-family: "Nosifer";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 83px;
+    color: white;
+    mix-blend-mode: difference;
+    transform: translateX(100%);
+    animation: marqueeLeft 12s linear infinite;
+    /* Adjust animation duration as needed */
+}
+
+.marquee2 {
+    font-family: "Nosifer";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 83px;
+    color: white;
+    mix-blend-mode: difference;
+    transform: translateX(-100%);
+    animation: marqueeRight 12s linear infinite;
+    /* Adjust animation duration as needed */
+}
+
+@keyframes marqueeLeft {
+    0% {
+        transform: translateX(-0%);
+    }
+
+    100% {
+        transform: translateX(-102%);
+    }
+}
+
+@keyframes marqueeRight {
+    0% {
+        transform: translateX(-102%);
+    }
+
+    100% {
+        transform: translateX(-0%);
+    }
+}
+
+
+.bs-out-of-bounds {
+    display: flex;
+    justify-content: space-between;
+    /* Distribute items evenly along the row */
+}
+
+.marquee-container {
+    margin-left: 40px;
+    /* Adjust margin between marquee sets */
+}
+
+.marquee,
+.marquee2 {
+    font-family: "Nosifer";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 83px;
+    color: white;
+    mix-blend-mode: difference;
+    white-space: nowrap;
+    /* Prevent line breaks */
+    overflow: hidden;
+    /* Hide overflowing content */
+}

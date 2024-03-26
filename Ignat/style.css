@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Metrophobic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    overflow: hidden;
+    background-color: #131212;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    width: 100%;
+    height: 120vh;
+    z-index: -1000;
+
+}
+
+
+
+.container img {
+    width: 100%;
+    height: 100%;
+    margin-top: -170px;
+
+}
+
+.content {
+    opacity: 0;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    mix-blend-mode: difference;
+}
+
+.wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 89%;
+    margin-top: 50px;
+}
+
+.wrap2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 89%;
+    margin-top: 50px;
+}
+
+.tab {
+    color: white;
+    width: 100%;
+    height: 50px;
+    font-size: 36px;
+    z-index: 100;
+}
+
+.tab:nth-child(2) {
+    text-align: end;
+}
+
+.cont {
+    width: 50%;
+    height: 500px;
+    z-index: 100;
+    top: 50%;
+    margin-top: -950px;
+}
+
+.text {
+    width: 50%;
+    height: 500px;
+    z-index: 100;
+    color: white;
+    font-family: "Nothing You Could Do", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 130px;
+    margin-left: 11%;
+    pointer-events: none;
+    mix-blend-mode: difference;
+}
+
+.cont2 {
+    width: 50%;
+}
+
+.text2 {
+    margin-top: -30px;
+    color: white;
+    margin-left: 11%;
+    font-size: 32px;
+    pointer-events: none;
+
+}
+
+.wrap2 {
+    margin-top: -50px;
+}
+
+.tab span {
+    font-size: 24px;
+}
+
+.cursor {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    /* background-color: white; */
+    border: 1px solid white;
+    transition: 0.0s !important;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    /* mix-blend-mode: difference; */
+}
+
+.zgolemi {
+    transition: 0.1s;
+    width: 90px;
+    height: 90px;
+    z-index: 100;
+    mix-blend-mode: difference;
+    background-color: white;
+}
+
+.preloader {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background-color: #131212;
+    z-index: 10000;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 150px;
+}
+
+.broenje {
+    font-size: 150px;
+    position: relative;
+    z-index: 100;
+}

@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #141414;
+    overflow-x: hidden !important;
+}
+
+
+
+.works-cont {
+    width: 100%;
+    height: 50vh;
+    text-align: center;
+    margin-top: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+}
+
+.works-text a {
+    font-family: "Nothing You Could Do", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 96px;
+    opacity: 0;
+    mix-blend-mode: difference;
+}
+
+.works-container-profile {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 140px;
+}
+
+.works-profile {
+    width: 89%;
+    text-align: end;
+    font-size: 36px;
+
+}
+
+.image-follow {
+    position: fixed;
+    opacity: 0;
+    width: 300px;
+    height: 400px;
+
+    transition: 0.12s;
+    transform: translate(-50%, -50%) rotate(10deg);
+    z-index: -1;
+    pointer-events: none;
+}
+
+.image-follow img {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}
+
+.gleda {
+    opacity: 1;
+    transition: 0.1s;
+}
+
+.negleda {
+    opacity: 0;
+    transition: 0.1s;
+}
+
+.filter {
+    filter: blur(2px) brightness(0.9) grayscale(0.32);
+
+}
+
+@keyframes slideIn {
+    from {
+
+        transform: translateY(-400%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideIn2 {
+    from {
+
+        transform: translateY(400%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.loaded2 {
+    animation: slideIn2 1s;
+}
+
+.tab.loaded {
+    animation: slideIn 1s;
+}
+
+.works-cont {
+    opacity: 1;
+}
+
+
+
+/* Define animation for staggering load */
+@keyframes staggeredLoad {
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Apply animation to each .works-text element with a delay */
+.works-text a {
+    opacity: 0;
+    animation: staggeredLoad 3s ease forwards;
+}
+
+/* Apply delay to each .works-text element */
+.works-text:nth-child(1) {
+    animation-delay: 0.5s;
+}
+
+.works-text:nth-child(2) {
+    animation-delay: 1s;
+}
+
+.works-text:nth-child(3) {
+    animation-delay: 1.5s;
+}
+
+.works-text:nth-child(4) {
+    animation-delay: 2s;
+}
+
+.mrda {
+    width: 120%;
+    height: 100%;
+    top: 0;
+
+    z-index: 100000 !important;
+    background-color: #2e2e2e;
+    position: absolute;
+}
+
+.mrda2 {
+    width: 120%;
+    height: 100%;
+    top: 0;
+    background-color: #1c1b1b;
+    position: absolute;
+    margin-left: 50%;
+    z-index: 10000 !important;
+}
+
+#vaj {
+    text-align: center;
+    font-size: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mrda3 {
+    top: 0;
+    width: 120%;
+    height: 100%;
+    position: absolute;
+    background-color: #131212;
+    margin-left: 100%;
+    z-index: 10000 !important;
+}
+
+@keyframes slideOut {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-200%);
+    }
+}
+
+.mrda {
+    animation: slideOut 0.7s ease-out 0.2s forwards;
+}
+
+.mrda2 {
+    animation: slideOut 0.7s ease-out 0.2s forwards;
+}
+
+.mrda3 {
+    animation: slideOut 0.7s ease-out 0.2s forwards;
+}
+
+.tab {
+    opacity: 0;
+    /* Initially hide the tab elements */
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Apply animation to .tab elements */
+.tab.loaded {
+    animation: slideIn 1s ease forwards;
+    animation-delay: 0.5s;
+    /* Adjusted delay value (0.5s) */
+}
+
+.works-profile {
+    opacity: 0;
+    /* Initially hide the works-profile element */
+}
+
+@keyframes slideIn2 {
+    from {
+        opacity: 0;
+        transform: translateY(200px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Apply animation to .works-profile element */
+.works-profile.loaded2 {
+    animation: slideIn2 1s ease forwards;
+    animation-delay: 0.5s;
+    /* Adjusted delay value (0.5s) */
+}

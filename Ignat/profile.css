@@ -1,0 +1,237 @@
+.profile-full {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 500px;
+}
+
+body {
+    background-color: #131212;
+    overflow: visible;
+    overflow-x: hidden !important;
+}
+
+.profile-full2 {
+    width: 99%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.profile-center {
+    width: 820px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.profile-abs {
+    width: 100%;
+    height: 400px;
+    font-family: "Nosifer", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    transform: translate(5%, 30%);
+}
+
+h1 {
+    font-family: "Nosifer", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 128px;
+    color: white;
+
+}
+
+h1 span {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    font-family: "Nosifer", sans-serif;
+    font-weight: 400;
+    color: transparent;
+    font-style: normal;
+    z-index: -100;
+}
+
+.profile-slika {
+    width: 500px;
+    height: 100%;
+    z-index: 1;
+    margin-top: -100px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-slika img {
+    width: 100%;
+    height: 600px;
+
+}
+
+h2 {
+    font-family: "Nothing You Could Do", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: -100px;
+    font-size: 60px;
+}
+
+.profile80 span {
+    font-family: "Nothing You Could Do", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    mix-blend-mode: difference;
+}
+
+.profile80 {
+    width: 80%;
+    font-size: 20px;
+    border-bottom: 1px solid rgb(71, 70, 70);
+    display: flex;
+    height: 100%;
+    align-items: center;
+    pointer-events: none;
+}
+
+
+.profile80 p {
+    padding-top: 0px;
+    width: 80%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    line-height: 25px;
+}
+
+.profile80 p:nth-child(1) {
+    margin-bottom: 200px;
+}
+
+.profile80 p:nth-child(2) {
+    margin-top: 100px;
+}
+
+.dog {
+    border-bottom: none;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    mix-blend-mode: difference;
+    top: 0;
+    position: sticky;
+}
+
+.wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 89%;
+    margin-top: 50px;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.tab {
+    color: white;
+    width: 100%;
+    height: 50px;
+    font-size: 36px;
+    z-index: 1000;
+}
+
+.tab:nth-child(2) {
+    text-align: end;
+}
+
+.cursor {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    /* background-color: white; */
+    border: 1px solid white;
+    transition: 0.0s !important;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    /* mix-blend-mode: difference; */
+}
+
+.mrda {
+    width: 120%;
+    height: 100%;
+    top: 0;
+    z-index: 100000 !important;
+    background-color: #2e2e2e;
+    position: absolute;
+}
+
+.mrda2 {
+    width: 120%;
+    height: 100%;
+    top: 0;
+    background-color: #1c1b1b;
+    position: absolute;
+    margin-left: 50%;
+    z-index: 10000 !important;
+}
+
+#vaj {
+    text-align: center;
+    font-size: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mrda3 {
+    top: 0;
+    width: 120%;
+    height: 100%;
+    position: absolute;
+    background-color: #131212;
+    margin-left: 100%;
+    z-index: 10000 !important;
+}
+
+@keyframes slideOut {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-200%);
+    }
+}
+
+.mrda {
+    animation: slideOut 0.7s ease-out 0.2s forwards;
+}
+
+.mrda2 {
+    animation: slideOut 0.7s ease-out 0.2s forwards;
+}
+
+.mrda3 {
+    animation: slideOut 0.7s ease-out 0.2s forwards;
+}
